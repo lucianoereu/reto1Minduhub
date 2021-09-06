@@ -1,0 +1,403 @@
+html{
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  background-color: rgb(201, 209, 212);
+}
+/* menu */
+.menu {
+  margin-top: 2rem;
+  width: 100%;
+  padding-left: 20%;
+}
+
+ul li a {
+  color: #66acac;
+  text-decoration: none;
+  border-radius: 2rem;
+  background-color: #1a1914;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 1% 1%;
+  
+}
+
+ul li {
+  display: inline;
+  margin: 1rem;
+}
+
+#actual {
+  text-decoration: overline;
+  background-color: #ecec16;
+  color: black;
+}
+ul li a:hover {
+  background-color: rgb(50, 119, 119);
+  color: #ecec16;
+}
+
+/* encabezado */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/hockey_3.jpg);
+  background-position: 38% 25%;
+  
+}
+
+#logo {
+  width: 18%;
+}
+
+/* cuerpo home*/
+#index3 {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+#index3 h3 {
+  font-size: 4.2rem;
+}
+
+.subTitle {
+  background-color: rgb(8, 8, 14);
+  font-size: 3rem;
+  color: #ecec16;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+  align-items: center;
+  border: 2px solid rgb(85, 83, 83);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+section article h4 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #49afa1;
+}
+section article p {
+  font-size:2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* imagen index */
+.css3 {
+  width: 20%;
+  height: 20%;
+}
+.imgIndex img {
+  width: 35rem;
+  height: 30rem;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 5rem;
+}
+
+/* about */
+
+#aboutUs {
+  background-color: rgb(201, 209, 212);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textoCss3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 20rem;
+  box-shadow: 0 10px 8px 0 black, 0 16px 20px 0 black;
+  flex: 2;
+  margin: 2rem;
+}
+.textoCss3 h3 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+  color: #49afa1;
+}
+.textoCss3 p {
+  text-align: justify;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.imgAbout {
+  width: 19rem;
+  height: 15rem;
+  object-fit: cover;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+/* contacto */
+
+.containerContac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(85, 85, 87);
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contacto p {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.contacto a {
+  font-size: 3rem;
+  text-decoration: none;
+  background-color: #feff49;
+}
+
+.imgContacto {
+  width: 20%;
+  margin: 15rem;
+}
+
+/* game information */
+
+.containerInformacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.containerInformacion table {
+  margin: 4rem 0 2rem;
+  font-size: 3rem;
+}
+
+.infoUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4rem;
+}
+.infoUp h3 {
+  text-decoration: underline;
+}
+
+table {
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  width: 60%;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+table th {
+  color: #49afa1;
+  font-size: 4rem;
+  background-color: #feff49;
+  height: 8rem;
+  box-shadow: 0 4px 8px 0 black;
+  border: solid black;
+}
+table td {
+  background-color: rgb(44, 172, 140);
+  font-size: 2.5rem;
+  height: 5rem;
+  box-shadow: 0 4px 8px 0 black, 0 10px 20px 0 #369681;
+}
+
+table,
+tr {
+  text-align: center;
+}
+
+.infoDown p {
+  margin: 2rem 10rem;
+  font-size: 2.5rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 10rem 2rem;
+  font-size: 2.5rem;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+/* rules */
+
+.reglas {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 10rem;
+  align-items: center;
+  border: 2px;
+}
+.reglas h4 {
+  font-size: 4rem;
+  padding: 2rem;
+}
+.reglas h3 {
+  color: #49afa1;
+  margin: 1rem;
+  font-size: 3.5rem;
+}
+
+.reglas ol li {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.subList {
+  list-style-type: upper-alpha;
+}
+
+.reglas p,
+ul {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* formulario */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  border: 2px solid black;
+  margin: 5% 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+form h5 {
+  text-decoration: underline;
+  color:cadetblue;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+form .infoP {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  color: rgb(15, 94, 97);
+  font-size: 3rem;
+  padding: 1rem 4rem 2rem ;
+  margin: 2rem;
+}
+form h3 {
+  
+  color: cadetblue;
+}
+
+.infoG {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.infoG h3{
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.posicion{
+  margin-top: 2rem;
+  font-size: 1.9rem;
+  color: #1d554d;
+}
+.talle {
+  margin-top: 2rem;
+}
+.grade {
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+.gender {
+  font-size: 2.5rem;
+}
+
+.autorizacion #firma {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+form .boton {
+  margin-bottom: 2rem;
+}
+.autorizacion {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 25rem;
+  color: #369681;
+  margin-bottom: 1rem;
+}
+.autori {
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2.2rem;
+}
+.autori legend{
+  color: #1d554d;
+  font-size: 3.5rem;
+}
+input[type=submit], input[type=reset] {
+  background-color: #1d554d;
+  border: 0.1rem solid #1d554d;
+  color:#ecec16;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+  background-color: darkcyan;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* formulario-Data */
+
+.tablaData {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.subTitleTabla {
+  background-color: rgb(8, 8, 14);
+  color: #ecec16;
+  text-align: center;
+  padding-bottom: 1rem;
+}
